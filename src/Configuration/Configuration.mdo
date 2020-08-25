@@ -34,4 +34,5 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Друзья</catalogs>
 </mdclass:Configuration>

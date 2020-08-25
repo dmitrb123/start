@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de833cf6-f255-4fc1-a830-99da09617748">
+  <producedTypes>
+    <objectType typeId="94e88c1c-91a5-4b8c-8f49-d597b0101643" valueTypeId="a18c197b-1efc-48c7-9d17-5081408a79f8"/>
+    <refType typeId="16f3b0e8-6e95-426e-9e65-8ecc534d885c" valueTypeId="3cda5721-a308-4e00-a429-48993b08ea64"/>
+    <selectionType typeId="b57ed4c8-573b-4967-9d44-a2f6cc9ea2c4" valueTypeId="7249605d-be39-455b-bfda-c1389d0a94e6"/>
+    <listType typeId="3211d6c9-460d-464e-a340-ebd3ed766cba" valueTypeId="5306d83f-c037-4668-828c-d6f59100e2c4"/>
+    <managerType typeId="9572ae24-ff37-43b4-b7fc-49618057f037" valueTypeId="c80223c7-8322-4823-b62f-3baf95145652"/>
+  </producedTypes>
+  <name>Друзья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Друзья</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Друзья.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Друзья.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0e61c64f-6102-4133-a7ec-cd675e61ce37">
+    <name>НомерТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
