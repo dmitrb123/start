@@ -35,4 +35,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Друзья</catalogs>
+  <dataProcessors>DataProcessor.СуперОбработка</dataProcessors>
 </mdclass:Configuration>
